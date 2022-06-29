@@ -11,6 +11,9 @@ module.exports = {
             xl: "1200px",
             xxl: "1500px",
         },
+        fontFamily: {
+            sans: "Poppins, sans-serif",
+        },
         container: (theme) => ({
             center: true,
             padding: theme("spacing.4"),

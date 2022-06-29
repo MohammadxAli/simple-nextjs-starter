@@ -46,27 +46,16 @@ button {
 
 html[dir="ltr"] {
     font-family: "Poppins", sans-serif;
-    font-size: 0.875rem;
+}
 
+html[dir="rtl"] {
     /*
-        Some of icons should rotate in ltr,
+        Some of icons should rotate in rtl,
         according to material design guideline
     */
-    .icon {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
+    .reverse-icon {
         transform: scaleX(-1);
         filter: FlipH;
         -ms-filter: "FlipH";
-    }
-
-    /*
-        Make sure tailwind font styles are
-        converted to English when direction is ltr
-    */
-    .font-sans,
-    .font-serif {
-        font-family: "Poppins", sans-serif;
     }
 }
