@@ -1,6 +1,6 @@
 # Simple Next.js TypeScript starter
 
-This is a simple _Next.js_ and _TypeScript_ starter. There's a support for [Tailwindcss](https://github.com/tailwindlabs/tailwindcss), [Bootstrap](https://github.com/twbs/bootstrap).
+Sometimes I just need to test things out without too much boilerplate and still have the flexibility to use good stuffs. That's why I created this repo. This is a simple _Next.js_ and _TypeScript_ starter. There's a support for [Tailwindcss](https://github.com/tailwindlabs/tailwindcss), and [Bootstrap](https://github.com/twbs/bootstrap). Configured [Zustand](https://github.com/pmndrs/zustand) (my favorite state management library) with immer.
 
 ## Getting started
 
